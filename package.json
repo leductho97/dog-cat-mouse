@@ -2,7 +2,7 @@
   "name": "1-commit",
   "version": "1.0.0",
   "description": "This is the demo project",
-  "main": "cat.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

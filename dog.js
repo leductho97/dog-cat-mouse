@@ -1,3 +1,5 @@
+var chalk = require('chalk');
+
 function Dog(name) {
 	this.name = name;
 	this.stomach = [];
@@ -6,3 +8,9 @@ function Dog(name) {
 Dog.prototype.eat = function(cat) {
 	this.stomach.push(cat);
 };
+
+Dog.prototype.sayHi = function() {
+	console.log('Hi! I am is a dog. My name is ' + chalk.blue(this.name));
+};
+
+module.exports = Dog;
