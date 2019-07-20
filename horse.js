@@ -1,7 +1,9 @@
 function Horse(name) {
 	this.name = name;
-
-	// comment the method need for horse class
 }
+
+Horse.prototype.jump = function() {
+	console.log('Horse is jumping!');
+};
 
 module.exports = Horse;
